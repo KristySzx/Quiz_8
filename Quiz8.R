@@ -1,4 +1,3 @@
-# Quiz_8
 install.packages(lmtest)
 # Load necessary library
 library(lmtest)
@@ -30,6 +29,5 @@ durbinWatsonTest(model)
 # Plot the residuals to check for homoscedasticity and normality
 par(mfrow=c(2,2))
 plot(model)
-
 
 
